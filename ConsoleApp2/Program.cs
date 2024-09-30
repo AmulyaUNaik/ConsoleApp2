@@ -23,7 +23,10 @@ namespace ConsoleApp2.Repository
         {
             Console.WriteLine("Hello world");
 
-            
+            Console.WriteLine("This is product class");
+
+
+
             IProductRepo productrepo = new ProductRepo();
             List<Product> products = new List<Product>();
             int input;
