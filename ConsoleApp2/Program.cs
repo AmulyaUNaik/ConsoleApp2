@@ -22,6 +22,8 @@ namespace ConsoleApp2.Repository
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+
+            Console.WriteLine("Hello world");
             IProductRepo productrepo = new ProductRepo();
             List<Product> products = new List<Product>();
             int input;
