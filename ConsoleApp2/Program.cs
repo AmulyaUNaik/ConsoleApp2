@@ -21,6 +21,7 @@ namespace ConsoleApp2.Repository
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world");
             IProductRepo productrepo = new ProductRepo();
             List<Product> products = new List<Product>();
             int input;
@@ -83,7 +84,7 @@ namespace ConsoleApp2.Repository
                         break;
 
                     case 5:
-                      /*  Console.WriteLine("Enter id to search");
+                      /* Console.WriteLine("Enter id to search");
                         int id_search = Convert.ToInt32(Console.ReadLine());
                         Product p2 = new Product();
                         p2 =productrepo.SearchProduct(id_search);
